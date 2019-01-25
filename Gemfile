@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 #taff
+gem 'haml-rails'
 gem 'jquery-rails'
 
 
