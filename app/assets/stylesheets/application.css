@@ -1,11 +1,13 @@
-.row {
+.row_first {
     background-color: rgb(169, 169, 197);
     height: 600px;
-  
 }
 
 .column_left {
-
     width: 550px;
     margin: 50px;
+}
+
+.column_right {
+    
 }
