@@ -1,0 +1,31 @@
+.imgcircle {
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  padding:20px;
+}
+
+.zoom {
+  transition: transform .9s;
+  /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  border:4px solid rgba(185, 136, 70, 0.9);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.containerr {
+  display: flex;
+  justify-content: center;
+  /* or inline-flex */
+}
+
+.containerreverse {
+  flex-direction: column ;
+}
