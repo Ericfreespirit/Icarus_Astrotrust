@@ -1,10 +1,29 @@
+.header{
+    background-color: #070617;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.logo{ 
+margin-top: 0.75%;    
+margin-left:2%;
+}
+
+.pages{
+  display: flex; 
+  justify-content: flex-end;
+  width:80%;
+  
+}
+
 .carousel-inner{
     position: absolute;
 	max-width: 80%;
 	top: 10%;
 	left: 10%;
-	border-radius: 3px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+    border-radius: 3px;
+    max-height: 10%;
+
 }
 
 .img_carousel{
@@ -13,7 +32,7 @@
 
 
 .column_left{
-  
+ border: 2px solid red;
   width: 50%;
   margin-top: 5%;
   margin-right:5px;
@@ -22,7 +41,7 @@
 }
 
 .column_right{
-    
+    border: 2px solid red;
     width: 50%;
     margin-top: 5%;
     margin-right:10%;
