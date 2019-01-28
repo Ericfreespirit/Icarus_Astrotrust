@@ -18,12 +18,36 @@
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.containerr {
-  display: flex;
-  justify-content: center;
-  /* or inline-flex */
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
-.containerreverse {
-  flex-direction: column ;
+li {
+  margin-bottom: 15px;
+  /* à adapter */
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.menostop {
+  margin-top: -12px;
+}
+
+.icon-big {
+  font-size: 32px;
 }
