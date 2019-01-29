@@ -78,6 +78,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.10.0)
+    flexbox_rb (0.5)
+      railties (>= 3.2.6, < 6)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     haml (5.0.4)
@@ -219,6 +221,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  flexbox_rb
   haml-rails
   jbuilder (~> 2.5)
   jquery-rails

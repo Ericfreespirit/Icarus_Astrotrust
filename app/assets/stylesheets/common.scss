@@ -1,0 +1,49 @@
+.html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0;
+  background: linear-gradient(150deg, #eee 50%, #ddd 0);
+}
+
+.full-height {
+  height: 100%;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.big-padding {
+  padding: 2em 1.5em;
+}
+
+.full-width {
+  width: 100%
+}
+
+.top-space {
+  margin-top: 1em;
+}
+
+.remove-bullet-points {
+  list-style-type: none;
+  margin: 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.nolinkface {
+  text-decoration: none;
+  color: #202020;
+}

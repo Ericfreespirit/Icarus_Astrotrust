@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 #taff
 gem 'haml-rails'
 gem 'jquery-rails'
+gem 'flexbox_rb'
 
 
 # Reduces boot times through caching; required in config/boot.rb
