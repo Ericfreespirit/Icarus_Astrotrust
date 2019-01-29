@@ -1,16 +1,17 @@
 .top-space
-  .row.center-xs
-    =grid xs:5, md:8 do 
+  .row.center-xs(style="max-width: 980px;")
+    =grid xs:12, md:12 do 
       %h2 Team
       %ul.flex-container
-        %ul
+        %ul.col-xs-6.col-md-4
           %li
             =image_tag "bayendiaye.png", :class => "imgcircle zoom"
           %li
             %h3 Baye NDIAYE
           %li
             %p.menostop Business Analyst
-        %ul
+        
+        %ul.col-xs-6.col-md-4
           %li
             =image_tag "yanwolff.png", :class => "imgcircle zoom"
           %li
@@ -19,14 +20,16 @@
             %p.menostop
               Ingénieur Deep learning <br />
               CTO & Co-founder
-        %ul
+        
+        %ul.col-xs-6.col-md-4
           %li
             =image_tag "dayanmazu.png", :class => "imgcircle zoom"
           %li
             %h3 Dayan Mazu
           %li
             %p.menostop CEO Co-founder
-        %ul
+        
+        %ul.col-xs-6.col-md-4
           %li
             =image_tag "edouarddosantos.png", :class => "imgcircle zoom"
           %li
