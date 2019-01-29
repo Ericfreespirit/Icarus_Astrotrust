@@ -49,8 +49,7 @@
 }
 
 
-.column_left{
- border: 2px solid red;
+.column_left{ 
   width: 50%;
   margin-top: 5%;
   margin-right:5px;
@@ -59,7 +58,6 @@
 }
 
 .column_right{
-    border: 2px solid red;
     width: 50%;
     margin-top: 5%;
     margin-right:10%;
