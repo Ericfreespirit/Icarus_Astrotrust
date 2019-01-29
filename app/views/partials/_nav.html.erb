@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-lg backnavb">
-  <a href="/"><img src="/assets/navbar/logo.png" class="imglogggg"></a>
+  <a href="/"><%= image_tag "logo.png", :class => "imglogggg" %></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon bg-light"></span>
   </button>
   <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNavAltMarkup">
     <div class="navbar-nav navbar-nav ml-auto">
-      <a class="nav-item nav-link text-white" href="#">Sociétés</a>
-      <a class="nav-item nav-link text-white" href="#">Solutions</a>
-      <a class="nav-item nav-link text-white" href="#">Application Mobile</a>
-      <a class="nav-item nav-link text-white" href="#">Marchés</a>
-      <a class="nav-item nav-link text-white" href="#">Équipe</a>
+      <%= link_to "Sociétés", societes_path, class: "nav-item nav-link text-white" %>
+      <%= link_to "Solutions", solutions_path, class: "nav-item nav-link text-white" %>
+      <%= link_to "Application Mobile", application_mobile_path, class: "nav-item nav-link text-white" %>
+      <%= link_to "Marchés", marches_path, class: "nav-item nav-link text-white" %>
+      <%= link_to "Équipe", equipes_path, class: "nav-item nav-link text-white" %>
     </div>
   </div>
 </nav>

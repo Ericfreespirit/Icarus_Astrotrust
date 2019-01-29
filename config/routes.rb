@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root to: 'home#index'
   get 'societes', to: 'home#societes'
   get 'solutions', to: 'home#solutions'
-  get 'application-mobil', to: 'home#applicationmobil'
+  get 'application-mobile', to: 'home#applicationmobile'
   get 'marches', to: 'home#marches'
   get 'equipes', to: 'home#equipes'
   get 'contactez-nous', to: 'home#contactez-nous'

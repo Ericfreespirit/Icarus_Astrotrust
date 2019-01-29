@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   def societes
   end
 
-  def applicationmobil
+  def applicationmobile
   end
 
   def solutions
