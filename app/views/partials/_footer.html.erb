@@ -30,7 +30,7 @@
         </ul>
         <h3><%= link_to "APPLICATION MOBILE", application_mobile_path, class: "colorin" %></h3>
         <ul class="footer-links">
-          <li><a href="" class="colorin2">Utilisation</a></li>
+          <li><%= link_to "- Utilisation", application_mobile_path, class: "colorin2" %></li>
         </ul>
       </div>
       <div class="footer-links-holder">
@@ -49,8 +49,8 @@
         </ul>
         <h3><%= link_to "ÉQUIPES", equipes_path, class: "colorin" %></h3>
         <ul class="footer-links">
-          <li><a href="" class="colorin2">- Team</a></li>
-          <li><a href="" class="colorin2">- Advisor</a></li>
+          <li><%= link_to "- Team", equipes_path(anchor: "teamlink"), class: "colorin2" %></li>
+          <li><%= link_to "- Advisor", equipes_path(anchor: "advisorlink"), class: "colorin2" %></li>
         </ul>
       </div>
     </div>

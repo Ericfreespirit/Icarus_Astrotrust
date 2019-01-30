@@ -1,7 +1,7 @@
 .top-space
   .row.center-xs
     =grid xs:12, md:10 do
-      %h2 <br> Team
+      %h2{:id => "teamlink"} <br> Team
       %ul.flex-container
         %ul.col-xs-6.col-md-3
           %li
@@ -37,19 +37,19 @@
           %li
             %p.menostop Ingénieur Logistique
 
-.top-space
+.mastop
   .row.center-xs
-    =grid xs:5, md:10 do 
-      %h2 Advisor
+    =grid xs:12, md:10 do
+      %h2{:id => "advisorlink"} Advisor
       %ul.flex-container 
-        %ul
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "aouele.jpg", :class => "imgcircle zoom"
           %li
             %h3 Aouélé EUGÈNE AKA (DR) 
           %li
             %p.menostop Ministre de la Santé <br />et de l’Hygiène Publique
-        %ul
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "christophe.jpg", :class => "imgcircle zoom"
           %li
@@ -58,44 +58,44 @@
             %p.menostop
               Expert Technique International <br />
               Pharmacien chez Expertise France 
-            %i.fab.fa-linkedin.colorin.icon-big
+            %i.fab.fa-linkedin-in.icon-med
             
-        %ul
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "gilles.jpg", :class => "imgcircle zoom"
           %li
             %h3 Gilles MARTIN
           %li
             %p.menostop Transformation Mentor :Transformation, <br />Innovation, Lateral Thinking - Business <br />angel and entrepreneur
-        %ul
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "marc.jpg", :class => "imgcircle zoom"
           %li
             %h3 Marc GENTILINI
           %li
             %p.menostop Président Croix ROUGE  française 
-        %ul
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "regis.png", :class => "imgcircle zoom"
           %li
             %h3 Régis MESSALI
           %li
             %p.menostop Directeur de la Communication <br />et du Développement chez <br />UNIFAB - Union des Fabricants
-        %ul
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "quentin.png", :class => "imgcircle zoom"
           %li
             %h3 Quentin DUTEIL
           %li
             %p.menostop Pharmacien <br />Chargé de mission Fondation Chirac
-        %ul
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "wilfrid.jpg", :class => "imgcircle zoom"
           %li
             %h3 Wilfrid ROGÉ
           %li
             %p.menostop Responsable Anti-Falsification<br /> Département des Marques <br />et de la Lutte contre <br />la Falsification SERVIER
-        %ul
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "jeanmarc.jpg", :class => "imgcircle zoom"
           %li
@@ -103,11 +103,11 @@
           %li
             %p.menostop Doctor of Pharmacy ; Director,<br />  Anticounterfeiting Strategy at Sanofi,<br />  Industrial Affairs
 
-.top-space
+.mastop
   .row.center-xs
     =grid xs:7, md:5 do 
       %h2 Contact
-      %ul.flex-container 
+      %ul.flex-container.mastop
         %ul
           %li
             %i.fas.fa-phone.icon-big

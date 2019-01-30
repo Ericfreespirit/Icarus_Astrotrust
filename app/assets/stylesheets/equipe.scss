@@ -45,9 +45,24 @@ li {
 }
 
 .menostop {
-  margin-top: -12px;
+  margin-top: -15px;
+}
+.mastop {
+  margin-top: 40px;
 }
 
 .icon-big {
   font-size: 32px;
+}
+.icon-med {
+  font-size: 23px;
+}
+
+ul > ul > li > h3 {
+  font-size: 17px;
+}
+ul>ul>li>p {
+  padding: 0 px;
+  margin: -5 px;
+  font-size: 16px;
 }
