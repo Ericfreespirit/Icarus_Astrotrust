@@ -1,9 +1,9 @@
 .top-space
-  .row.center-xs(style="max-width: 980px;")
-    =grid xs:12, md:12 do 
+  .row.center-xs
+    =grid xs:12, md:10 do
       %h2 <br> Team
       %ul.flex-container
-        %ul.col-xs-6.col-md-4
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "bayendiaye.png", :class => "imgcircle zoom"
           %li
@@ -11,7 +11,7 @@
           %li
             %p.menostop Business Analyst
         
-        %ul.col-xs-6.col-md-4
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "yanwolff.png", :class => "imgcircle zoom"
           %li
@@ -21,7 +21,7 @@
               Ingénieur Deep learning <br />
               CTO & Co-founder
         
-        %ul.col-xs-6.col-md-4
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "dayanmazu.png", :class => "imgcircle zoom"
           %li
@@ -29,7 +29,7 @@
           %li
             %p.menostop CEO Co-founder
         
-        %ul.col-xs-6.col-md-4
+        %ul.col-xs-6.col-md-3
           %li
             =image_tag "edouarddosantos.png", :class => "imgcircle zoom"
           %li
@@ -110,11 +110,12 @@
       %ul.flex-container 
         %ul
           %li
-            <i class="fas fa-phone icon-big"></i>
+            %i.fas.fa-phone.icon-big
         %ul
           %li
-            <i class="fas fa-envelope icon-big"></i>
+            %i.fas.fa-envelope.icon-big
         %ul
           %li
-            <i class="fas fa-network-wired icon-big"></i>
+            %i.fas.fa-network-wired.icon-big
+
             
