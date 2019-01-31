@@ -25,8 +25,8 @@
       <div class="footer-links-holder">
         <h3><%= link_to "SOCIÉTÉS", societes_path, class: "colorin" %></h3>
         <ul class="footer-links">
-          <li><a href="" class="colorin2">- Qui sommes-nous?</a></li>
-          <li><a href="" class="colorin2">- Partenaires</a></li>
+          <li><%= link_to "- Qui sommes-nous?", societes_path(anchor: "quisommeslink"), class: "colorin2" %></li>
+          <li><%= link_to "- Partenaires", societes_path(anchor: "partenaireslink"), class: "colorin2" %></li>
         </ul>
         <h3><%= link_to "APPLICATION MOBILE", application_mobile_path, class: "colorin" %></h3>
         <ul class="footer-links">
@@ -36,9 +36,9 @@
       <div class="footer-links-holder">
         <h3><%= link_to "SOLUTIONS", solutions_path, class: "colorin" %></h3>
         <ul class="footer-links">
-          <li><a href="" class="colorin2">- Authentification digital</a></li>
-          <li><a href="" class="colorin2">- Sériation et trançabilité</a></li>
-          <li><a href="" class="colorin2">- D- Check box</a></li>
+          <li><%= link_to "- Authentification digital", solutions_path(anchor: "authentificationlink"), class: "colorin2" %></li>
+          <li><%= link_to "- Sériation et trançabilité", solutions_path(anchor: "serialisationlink"), class: "colorin2" %></li>
+          <li><%= link_to "- D- Check box", solutions_path(anchor: "dechecklink"), class: "colorin2" %></li>
         </ul>
       </div>
       <div class="footer-links-holder">
