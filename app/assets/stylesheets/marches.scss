@@ -1,50 +1,167 @@
-.row_21{
-border: 2px solid red;
-margin-bottom: 30px;
+.row_medicament{
+    background-color: white;
 }
 
-.row_22{
-border: 2px solid blue;
-display: flex;
-justify-content: center;
 
-
-
-}
-
-.col_21{
-border: 2px solid orange;
-margin-left: 10%;
-margin-right: 5%;
-background-color: white;
+.row_medicament1{
+    height:30% ;
+    width: 70%;
+    margin-left: 15%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
 
 }
 
-.col_22{
-border: 2px solid orange;
-margin-left: 5%;
-margin-right: 10%;
-background-color: white;
-
-
-
-
-}
-
-.data{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+.h7eric{
+    display: flex;
+    justify-content: center;
 }
 
 .medicament{
-    width: 400px;
-    height: 150px;
+    height:200px ;
+    width: 100%; 
+}
+
+.row_medicament2{
+    margin-left: 15%;
+    
+}
+
+.h5eric{
+    margin-left: 15%;
+    margin-top: 20px;
 
 }
 
+.row_medicament3{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    margin-top: 30px;
+}
+
+.h6eric{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgba(185, 136, 70, 0.9);
+}
+
+.col_medicament1{
+    border: 2px solid orange;
+    margin-left: 15%;
+    color: rgba(185, 136, 70, 0.9);
+}
+
+.col_medicament2{
+    border: 2px solid orange;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgba(185, 136, 70, 0.9);   
+}
+
+.col_medicament3{
+    border: 2px solid orange;
+    margin-right: 15%;
+    color: rgba(185, 136, 70, 0.9);
+}
+
+
+.row_medicament4{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
 .perfum{
-    width: 400px;
-    height: 150px;
+    height:200px ;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.row_perfum{
+    background-color: white;
+    margin-top: 50px;
+}
+
+
+.row_perfum1{
+    height:30% ;
+    width: 70%;
+    margin-left: 15%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.h7eric{
+    display: flex;
+    justify-content: center;
+}
+
+.perfum{
+    height:200px;
+    width: 100%; 
+}
+
+.row_perfum2{
+    margin-left: 15%;
+}
+
+.h5eric{
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+
+.h6eric{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgba(185, 136, 70, 0.9);
+}
+
+.col_perfum1{
+    border: 2px solid orange;
+    margin-left: 15%;
+    color: rgba(185, 136, 70, 0.9);
+}
+
+.col_perfum2{
+    border: 2px solid orange;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgba(185, 136, 70, 0.9);    
+}
+
+.row_perfum3{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    margin-top: 30px;
+}
+
+
+
+.row_perfum4{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+.perfum{
+    height:200px ;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
