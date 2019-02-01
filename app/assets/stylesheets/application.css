@@ -15,6 +15,7 @@
  *= require_self
  */
 
+
 .header{
     background-color: #070617;
     display: flex; 
@@ -55,6 +56,7 @@
   margin-right:5px;
   margin-bottom:5em;
   margin-left:10%;
+ 
 }
 
 .column_right{
@@ -68,7 +70,8 @@
 
 #container {
   display: flex; 
-  justify-content: center
+  justify-content: center;
+  background-color: white;
   }
 
 
@@ -82,4 +85,8 @@
 
 .schema {
   width: 100%;
+}
+
+.img_carousel{
+  width: auto;
 }
