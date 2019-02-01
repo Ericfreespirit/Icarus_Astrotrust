@@ -1,5 +1,7 @@
 .row_medicament{
     background-color: white;
+    padding-bottom: 50px;
+    padding-top: 50px
 }
 
 
@@ -7,7 +9,6 @@
     height:30% ;
     width: 70%;
     margin-left: 15%;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
 
@@ -20,7 +21,7 @@
 
 .medicament{
     height:200px ;
-    width: 100%; 
+    width: 60%; 
 }
 
 .row_medicament2{
@@ -37,7 +38,6 @@
 .row_medicament3{
     display: flex;
     justify-content: center;
-    border: 2px solid red;
     margin-top: 30px;
 }
 
@@ -49,22 +49,24 @@
 }
 
 .col_medicament1{
-    border: 2px solid orange;
     margin-left: 15%;
     color: rgba(185, 136, 70, 0.9);
+    
+    
 }
 
 .col_medicament2{
-    border: 2px solid orange;
     margin-left: 5%;
     margin-right: 5%;
-    color: rgba(185, 136, 70, 0.9);   
+    color: rgba(185, 136, 70, 0.9);
+    
+
 }
 
 .col_medicament3{
-    border: 2px solid orange;
     margin-right: 15%;
     color: rgba(185, 136, 70, 0.9);
+   
 }
 
 
@@ -74,20 +76,20 @@
     margin-top: 20px;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 20px;
+    
 }
 
-.perfum{
-    height:200px ;
-    width: 100%;
-    margin-left: 20%;
-    margin-right: 20%;
+.perfume{
+    height:200px;
+    width:60%;
 }
 
 
 .row_perfum{
     background-color: white;
     margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px
 }
 
 
@@ -95,7 +97,6 @@
     height:30% ;
     width: 70%;
     margin-left: 15%;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     
@@ -129,13 +130,11 @@
 }
 
 .col_perfum1{
-    border: 2px solid orange;
     margin-left: 15%;
     color: rgba(185, 136, 70, 0.9);
 }
 
 .col_perfum2{
-    border: 2px solid orange;
     margin-left: 5%;
     margin-right: 5%;
     color: rgba(185, 136, 70, 0.9);    
@@ -144,7 +143,6 @@
 .row_perfum3{
     display: flex;
     justify-content: center;
-    border: 2px solid red;
     margin-top: 30px;
 }
 
