@@ -50,29 +50,30 @@
 }
 
 
-.column_left{ 
+.column_top{
   width: 50%;
   margin-top: 5%;
-  margin-right:5px;
   margin-bottom:5em;
-  margin-left:10%;
- 
-}
-
-.column_right{
-    width: 50%;
-    margin-top: 5%;
-    margin-right:10%;
-    margin-bottom:5em;
-    margin-left:0;
+  padding-bottom: 20px;
    
 }
 
+.column_bottom{ 
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom:5em; 
+ }
+
+
+
 #container {
-  display: flex; 
-  justify-content: center;
+  
   background-color: white;
+  display: flex;
+  justify-content: center;
   }
+
+  
 
 
 .glsad {
@@ -87,4 +88,7 @@
   width: 100%;
 }
 
-
+.text-center{
+  font-size: 30px;
+  
+}
