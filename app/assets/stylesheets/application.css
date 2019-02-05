@@ -16,17 +16,17 @@
  */
 
 
-.header{
-    background-color: #070617;
-    display: flex; 
-    justify-content: space-between;
+.header {
+  background-color: #070617;
+  display: flex;
+  justify-content: space-between;
 }
 
-.pages{
-  display: flex; 
+.pages {
+  display: flex;
   justify-content: flex-end;
-  width:80%;
-  
+  width: 80%;
+
 }
 
 .imglogggg {
@@ -35,53 +35,53 @@
   height: auto;
 }
 
-.carousel-inner{
-    position: absolute;
-	max-width: 80%;
-	top: 10%;
-	left: 10%;
-    border-radius: 3px;
-    max-height: 10%;
+.carousel-inner {
+  position: absolute;
+  max-width: 80%;
+  top: 10%;
+  left: 10%;
+  border-radius: 3px;
+  max-height: 10%;
 
 }
 
-.img_carousel{
-    width: 100%;
+.img_carousel {
+  width: 100%;
 }
 
 
-.column_top{
+.column_top {
   width: 50%;
   margin-top: 5%;
-  margin-bottom:5em;
+  margin-bottom: 5em;
   padding-bottom: 20px;
-   
+
 }
 
-.column_bottom{ 
+.column_bottom {
   width: 100%;
   margin-top: 5%;
-  margin-bottom:5em; 
- }
+  margin-bottom: 5em;
+}
 
 
 
 #container {
-  
+
   background-color: white;
   display: flex;
   justify-content: center;
- 
-  }
+
+}
 
 
 
 
 .glsad {
-  float:right;
+  float: right;
 }
 
-.backnavb{
+.backnavb {
   background: #191919;
 }
 
@@ -89,7 +89,7 @@
   width: 100%;
 }
 
-.text-center{
+.text-center {
   font-size: 30px;
 
 }
