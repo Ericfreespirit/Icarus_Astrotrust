@@ -26,7 +26,6 @@
   display: flex;
   justify-content: flex-end;
   width: 80%;
-
 }
 
 .imglogggg {
@@ -42,20 +41,17 @@
   left: 10%;
   border-radius: 3px;
   max-height: 10%;
-
 }
 
 .img_carousel {
   width: 100%;
 }
 
-
 .column_top {
   width: 50%;
   margin-top: 5%;
   margin-bottom: 5em;
   padding-bottom: 20px;
-
 }
 
 .column_bottom {
@@ -64,8 +60,6 @@
   margin-bottom: 5em;
 }
 
-
-
 #container {
 
   background-color: white;
@@ -73,9 +67,6 @@
   justify-content: center;
 
 }
-
-
-
 
 .glsad {
   float: right;
@@ -91,5 +82,4 @@
 
 .text-center {
   font-size: 30px;
-
 }
